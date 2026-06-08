@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 p-3 bg-warning">
+                <h1>GreenFuture</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 p-3 mx-auto bg-danger ">
+                <h2>Creamos soluciones a medida</h2>
+                <br>
+                <button class="btn btn-primary"> Conectar </button>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-lg-3 p-3 bg-success border border-dark ">
+                <p>Desarrollo de software</p>
+                <img src="..\Imagenes\images.jpg" class="imagen1">
+            </div>
+            <div class="col-lg-3 p-3 bg-success border border-dark ">
+                <p>Asistencia remota</p>
+                <img src="..\Imagenes\software-1-e1550080097569.jpg" class="imagen2">
+            </div>
+            <div class="col-lg-3 p-3 bg-success border border-dark ">
+                <p>Gestion de recursos</p>
+                <img src="..\Imagenes\programadores-mantenimiento.webp" class="imagen3">
+            </div>
+            <div class="col-lg-3 p-3 bg-success border border-dark ">
+                <p>Auditorias de datos</p>
+                <img src="..\Imagenes\images (1).jpg" class="imagen4">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 p-3 bg-secondary border border-light  ">
+                <p>Agenda una reunion informativa sin costo</p>
+                <img src="..\Imagenes\images.png" class="imagen5">
+            </div>
+            <div class="col-lg-6 p-3 bg-secondary border border-light  ">
+                <p>Contacto </p>
+
+               <div class="col-lg-6 mx-auto">
+
+                <form id="uploadForm" class="d-none my-4 bg-light text-dark p-4 rounded mx-auto" enctype="multipart/form-data" method="POST">
+                    <h1 class="text-center">Contacto</h1>
+                    <div class="mb-3">
+                        <label for="usr_name" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="usr_name" name="usr_name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="usr_email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="usr_email" name="usr_email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="usr_pass" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="usr_pass" name="usr_pass" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="imagen" class="form-label">Imagen</label>
+                        <input type="file" class="form-control" id="imagen" name="imagen" accept="image/*">
+                    </div>
+                    <div class="row">
+                        <button type="submit" class="btn btn-primary col-lg-4 mx-auto mt-3">Registrar usuario</button>
+                    </div>
+                </form>
+
+                <form id="loginForm" class="my-4 bg-light text-dark p-4 rounded mx-auto" method="POST">
+                    <h1 class="text-center">Contacto</h1>
+                    <div class="mb-3">
+                        <label for="usr_email_login" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="usr_email_login" name="usr_email_login" required>
+                        <label for="usr_pass_login" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="usr_pass_login" name="usr_pass_login" required>
+                        <div class="row">
+                            <button type="submit" class="btn btn-primary col-lg-4 mx-auto mt-3">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 p-3 bg-dark text-light ">
+                <p>GreenFuture©</p>
+                <img src="" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
